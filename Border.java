@@ -1,13 +1,11 @@
 package com.assignment;
 
 public class Border {
-    int width, length;
-    double prob;
 
-    public Border(int l, int w, double p){
-        length = l;
-        width = w;
-        prob = p;
+    int width = 1; // by default the width is set to 1
+
+    public void changeWidth(int tempW){
+        width = tempW;
     }
 
 
