@@ -13,20 +13,7 @@ public class Main {
 
         int numberOfExp = 10;
         Experiment experiment = new Experiment();
-//
-//        Scanner input = new Scanner(System.in);
-//        System.out.print("enter p: ");
-//        double userP = input.nextDouble();
-//
-//        System.out.print("enter w: ");
-//        int userW = input.nextInt();
 
-//        for(double pC = 0.1; pC<1; pC+=0.1){
-//            for(int wC = 2; wC<10; wC+=2){
-//                int avg = experiment.doExperiment(numberOfExp, pC, wC);
-//                System.out.println(avg);
-//            }
-//        }
 
         try {
 
